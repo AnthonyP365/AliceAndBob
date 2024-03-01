@@ -24,6 +24,7 @@ public class Main {
             System.out.println(("You are neither Alice nor Bob."));
         }
 
+
     }
         // Get input string of name from user
         
