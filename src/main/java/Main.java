@@ -19,7 +19,7 @@ public class Main {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
         if (name.equalsIgnoreCase("Alice") || name.equalsIgnoreCase("Bob")) {
-            System.out.println("Hello " + name);
+            System.out.println("Hello, " + name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase() + "!");
         }else {
             System.out.println(("You are neither Alice nor Bob."));
         }
